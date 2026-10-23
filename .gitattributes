@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Treat MATLAB/Simulink files as binary so Git never text-merges them
+*.slx   binary
+*.mdl   binary
+*.sldd  binary
+*.mat   binary
+*.mlx   binary
+*.mlapp binary
+*.prj   binary
+*.fig   binary
