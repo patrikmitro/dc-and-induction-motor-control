@@ -24,8 +24,8 @@ Ttm=0.005;                 % casova konstanta tyristoroveho menica [s]
 Imax=2*I;                  % maximalny pripustny prud [A]
 
 %% Pomocné výpočty
-KI=10/Imax                 % prenos snimaca prudu [V/A]
-Kw=10/(1.5*w)                    % prenos snimaca rychlosti [Vs/rad] (bez odbudzovania: wmax = wN)
+KI=10/Imax                % prenos snimaca prudu [V/A]
+Kw=10/(2*w)                % prenos snimaca rychlosti [Vs/rad] (bez odbudzovania: wmax = wN)
 UIamax=KI*Imax             % obmedzenie zelaneho prudu (vystup reg. rychlosti) [V]
 
 %% Kritérium optimálneho modulu - regulátor prúdu kotvy
